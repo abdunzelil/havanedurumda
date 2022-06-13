@@ -1,20 +1,20 @@
 # Hava Ne Durumda
 
-Bu uygulama temelde apilerle nasıl çalışılır, apiden veri nasıl `GET` edilir gibi işlemleri anlamak için yapılmıştır.
+Bu uygulama temelde API'lerle nasıl çalışılır, API'den veri nasıl `GET` edilir gibi işlemleri anlamak için yapılmıştır.
 
-Uygulama Fotoğrafları:
+Uygulama fotoğrafları:
 
 <img title="" src="https://github.com/devEge/havanedurumda/blob/master/images/ss1.png" alt="image1" width="211"> <img title="" src="https://github.com/devEge/havanedurumda/blob/master/images/ss2.png" alt="image2" width="211" data-align="inline"> <img title="" src="https://github.com/devEge/havanedurumda/blob/master/images/ss3.png" alt="image3" width="211">
 
-Uygulamada api servisi olarak https://collectapi.com servisini kullandım. Siz de hava durumu apisine erişmek için aşağıdaki linke tıklayabilirsiniz.
+Uygulamada API servisi olarak https://collectapi.com servisini kullandım. Siz de hava durumu API'ne erişmek için aşağıdaki linke tıklayabilirsiniz.
 
 https://collectapi.com/tr/api/weather/hava-durumu-api
 
 ---
 
-Bilmeyen Arkadaşlar için Apiden veri çekerken sitenin size verdiği `authorization`
+Bilmeyen arkadaşlar için; API'den veri çekerken sitenin size verdiği `authorization`
 
-keyini header kısmında yollamanız gerekmektedir, aksi taktirde aşağıdaki hatayı alacaksınız.
+keyini header kısmında yollamanız gerekmektedir, aksi takdirde aşağıdaki hatayı alacaksınız:
 
 ![unAuthorizedError](https://github.com/devEge/havanedurumda/blob/master/images/unAuthorized.png)
 
